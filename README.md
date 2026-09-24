@@ -1,33 +1,13 @@
-Product Catalog API
-REST API for product registration and management.
+🛍️ Product Catalog API
+A simple REST API for managing products.
 
-Technologies
-Java 17
+🛠️ Technologies
+Java 17 · Spring Boot · PostgreSQL · JPA · Flyway
 
-Spring Boot
-
-Spring Data JPA
-
-PostgreSQL
-
-Flyway
-
-Maven
-
-Endpoints
-GET /products — list products
-
-GET /products/{id} — get a product
-
-POST /products — create a product
-
-PUT /products/{id} — update a product
-
-DELETE /products/{id} — delete a product
-
-Running
-The project uses PostgreSQL and can be run using IntelliJ IDEA or Maven.
-
-API available at:
-
-http://localhost:8080
+🚀 Endpoints
+Method	Endpoint	Description
+🟢 GET	/products	List products
+🔎 GET	/products/{id}	Find product
+➕ POST	/products	Create product
+✏️ PUT	/products/{id}	Update product
+🗑️ DELETE	/products/{id}	Delete product
